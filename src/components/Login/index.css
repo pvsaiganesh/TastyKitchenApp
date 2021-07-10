@@ -1,0 +1,96 @@
+.sign-in-box {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bg {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+.bg-part-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-grow: 1;
+}
+.bg-part-2 {
+  flex-grow: 0;
+  height: 100vh;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-home-page-1 {
+  height: 50%;
+  width: 30%;
+  margin: 10px;
+}
+.sign-in-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0f172a;
+  text-align: center;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+.input-box-label {
+  align-self: flex-start;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.input-box-home-page {
+  position: relative;
+  height: 40px;
+  width: 400px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  border-color: transparent;
+  outline: none;
+  padding: 20px;
+}
+.input-box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mb {
+  padding-bottom: 20px;
+}
+.button-home-page {
+  background: #f7931e;
+  border-radius: 8px;
+  outline: none;
+  height: 40px;
+  width: 400px;
+  color: #ffffff;
+  border-color: transparent;
+}
+.err {
+  color: red;
+  font-size: 12px;
+}
